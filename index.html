@@ -6,25 +6,30 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>¿Quieres ser mi nobia?</h1>
-    <script src="js/Alertas.js"></script>
-    <a onclick="diceQueSi()" class="btn-neon">
-        <span id="1"></span>
-        <span id="2"></span>
-        <span id="3"></span>
-        <span id="4"></span>
+    <div id="particles-js"></div>
+    <div id="allassets">
+        <h1>¿Quieres ser mi nobia?</h1>
+        <script src="js/Alertas.js"></script>
+        <a onclick="diceQueSi()" class="btn-neon">
+            <span id="1"></span>
+            <span id="2"></span>
+            <span id="3"></span>
+            <span id="4"></span>
         Siii
-    </a>
-    <a onmouseover="mueveElBoton()" class="btn-no">
-        <span id="1"></span>
-        <span id="2"></span>
-        <span id="3"></span>
-        <span id="4"></span>
+        </a>
+        <a onmousemove="" class="btn-no">
+            <span id="1"></span>
+            <span id="2"></span>
+            <span id="3"></span>
+            <span id="4"></span>
         No:(
-    </a>
+        </a>
+    </div>
 
 </body>
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="js/particles.js"></script>
     <script>
         function diceQueSi(){
             Swal.fire(
@@ -34,7 +39,7 @@
 )};
     </script>
     <script>
-        function mueveElBoton(){
+        function mueve(){
             width = window.innerWidth;
             height = window.innerHeight;
 
@@ -48,6 +53,7 @@
 
         }
     </script>
+    <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.17/dist/sweetalert2.all.min.js"></script>
     <link
     rel="stylesheet"
