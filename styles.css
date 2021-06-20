@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    font-family: fantasy;
+}
+
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.btn-neon:hover{
+    background: pink;
+    box-shadow: 0 0 10px pink, 0 0 40px pink, 0 0 80px pink;
+    transition-delay: 0.2s;
+}
+
+.btn-no{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 1ms;
+}
+
+.btn-no:hover{
+    background: red;
+    box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+    transition-delay: 1ms;
+}
+
+h1{
+    color: pink;
+    font-size: 30px;
+    
+}
+
+
